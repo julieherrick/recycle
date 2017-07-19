@@ -1,0 +1,10 @@
+.home_image {
+  position: absolute;
+  /*left: 300px;*/
+}
+
+.logo_image {
+  position: absolute;
+  left: 500px;
+  z-index: 5;
+}
