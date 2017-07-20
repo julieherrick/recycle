@@ -7,7 +7,6 @@
   background-image: url("../sky.jpg");
   height: 400px;
   width: 100%;
-  position: absolute;
   padding-top: 70px;
   text-align: center;
   /*left: 350px;*/
@@ -16,50 +15,57 @@
 
 .header {
   display: flex;
-
 }
 
 #slogan {
   padding: 40px;
   font-family: Impact, Charcoal, sans-serif;
   font-weight: bold;
-  color: Charcoal;
-  padding-bottom: 30px;
-  margin-bottom: 10px;
+  color:#073d18;
+  border-top: 2px dashed #12d132;
+	border-bottom: 2px dashed #12d132;
+  box-shadow: inset 0 -1px 0 0 #12d132, inset 0 1px 0 0 #12d132, 0 1px 0 0 #12d132, 0 -1px 0 0 #12d132;
+	padding-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 /*navbar*/
 #navbar {
     list-style-type: none;
-    margin-top: 0px;
-    padding: 30px;
-    padding-left: 40%;
+    margin-top: -9px;
+    padding: 0px;
+    padding-left: 25%;
     overflow: hidden;
-    background-color: #333;
+    background-color: #1ccc31;
+    height: 92px;
     /*display: flex;*/
 }
 
 #nav {
-    float: left;
+  float: left;
+  margin-bottom: 40px;
+  margin-top: -31px;
+  margin-right: 53px;
 }
 
 #bar {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
 }
 
 #bar:hover {
-    background-color: #111;
+    background-color: #50bdfc;
 }
 
 /*end navbar*/
 
 .main {
   /*background-image: url("../mountain_sunset.jpg");*/
-  background-color: #aaff6e;
+  background-color: #aed5f2;
+  margin-top: 80px;
 }
 
 .statistics {
@@ -69,6 +75,7 @@
   padding-bottom: 30px;
   margin-bottom: 0px;
   font-size: 250%;
+  text-align: center;
 }
 
 table {
@@ -90,15 +97,23 @@ th, td {
     text-align: left;
 }
 td {
-    background-color: #C4FFFF;
+    background-color: #aaff6e;
 }
 table#t01 th {
     background-color: white;
 }
 
+h1 {
+  text-align: center;
+}
+
+#dont {
+  text-align: center;
+}
+
 img {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
   border-width: 5px;
   border-color: Charcoal;
 }
