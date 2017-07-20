@@ -1,21 +1,15 @@
 body {
   display: flex;
-<<<<<<< HEAD
+
   flex-direction: column;
-=======
-  flex-direction: row;
->>>>>>> e0b880260f031617b54d274cbdb0acd79757fc2b
+
 }
 
 .logo_image {
   background-image: url("../sky.jpg");
   height: 400px;
   width: 100%;
-<<<<<<< HEAD
-  /*position: absolute;*/
-=======
   position: absolute;
->>>>>>> e0b880260f031617b54d274cbdb0acd79757fc2b
   padding-top: 70px;
   text-align: center;
   /*left: 350px;*/
