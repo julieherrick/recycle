@@ -1,0 +1,112 @@
+/*.home_image {
+  position: absolute;
+
+}*/
+
+.logo_image {
+  background-image: url("../sky.jpg");
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  padding-top: 70px;
+  text-align: center;
+  /*left: 350px;*/
+  z-index: 5;
+}
+
+.header {
+  display: flex;
+
+}
+
+#slogan {
+  padding: 40px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: bold;
+  color:#073d18;
+  border-top: 2px dashed #12d132;
+	border-bottom: 2px dashed #12d132;
+  box-shadow: inset 0 -1px 0 0 #12d132, inset 0 1px 0 0 #12d132, 0 1px 0 0 #12d132, 0 -1px 0 0 #12d132;
+	padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+
+/*navbar*/
+#navbar {
+    list-style-type: none;
+    margin-top: -9px;
+    padding: 30px;
+    padding-left: 40%;
+    overflow: hidden;
+    background-color: #333;
+    /*display: flex;*/
+}
+
+#nav {
+    float: left;
+}
+
+#bar {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#bar:hover {
+    background-color: #111;
+}
+
+/*end navbar*/
+
+.statistics {
+  padding: 40px;
+  font-family: Impact, Arial;
+  color: black;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+  font-size: 250%;
+}
+
+table {
+    width:80%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-top: 20px;
+    border: 1px solid #7a7479;
+    background-color: white;
+    color: black;
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+td {
+    background-color: #C4FFFF;
+}
+table#t01 th {
+    background-color: white;
+}
+
+img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#blue {
+  color: blue;
+}
+
+#brown {
+  color: brown;
+}
+
+#green {
+  color: green;
+}
