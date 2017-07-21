@@ -1,0 +1,96 @@
+
+.main {
+  /*background-image: url("../mountain_sunset.jpg");*/
+  background-color: #aed5f2;
+  margin-top: 80px;
+  padding-bottom: 40px
+}
+
+.statistics {
+  padding: 30px;
+  font-family: Impact, Arial;
+  color: black;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+  font-size: 250%;
+  text-align: center;
+}
+
+table#t01 {
+    width:80%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-top: 20px;
+    border: 1px solid #7a7479;
+    background-color: white;
+    color: black;
+
+}
+
+table#t02 {
+    width:50%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-top: 20px;
+    border: 1px solid #7a7479;
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table#t01, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table#t02, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    padding: 5px;
+    text-align: left;
+}
+table #t01 td {
+    padding: 5px;
+    text-align: left;
+}
+table#t02 td {
+    padding: 5px;
+    text-align: center;
+}
+td {
+    background-color: #aaff6e;
+}
+table#t01 th {
+    background-color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+#dont {
+  text-align: center;
+  background-color: #aaff6e;
+}
+
+img {
+  margin-left: 10%;
+  margin-right: 10%;
+  border-width: 5px;
+  border-color: Charcoal;
+}
+
+#blue {
+  color: blue;
+}
+
+#brown {
+  color: brown;
+}
+
+#green {
+  color: green;
+}
