@@ -51,7 +51,7 @@ body {
       /*navbar*/
       .rainbow {
           list-style-type: none;
-          margin-top: -9px;
+          /*margin-top: -9px;*/
           padding: 2px;
           padding-left: 25%;
           overflow: hidden;
