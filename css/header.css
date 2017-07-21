@@ -6,7 +6,7 @@ body {
       }
 
       .logo_image {
-        background-image: url("../picture/sky.jpg");
+        background-image: url("../sky.jpg");
         height: 400px;
         width: 100%;
         /*position absolute*/
