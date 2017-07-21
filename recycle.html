@@ -11,7 +11,16 @@
      <!-- Latest compiled JavaScript -->
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <title>Recycle</title>
-  </head>
+   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+   <script>
+      $(function(){
+      $("#header").load("HEADERNAV.html");
+      });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+<!--Remaining section-->
   <body>
     <div class="logo_image">
       <center>
@@ -74,7 +83,7 @@
        </tr>
      </table>
      <br>
-     <h1 padding-top="20px">What Can't Go In Each Bin</h1>
+     <h1 padding-top="20px">What <b>Can't</b> Go In Each Bin</h1>
        <table id="t01">
          <tr>
            <th id="blue">Blue</th>
@@ -111,7 +120,11 @@
        </table>
        <br>
       <h1 padding-top="20px">What Can't Be Recycled</h1>
-      <p id="dont">Pizza Boxes<br>Wet Paper<br>Plastic Bottle Caps<br>Juice Boxes<br>Plastic Bags<br>Styrofoam<br>Wire Hangers<br>Paper Napkins or Towels<br>Ceramics<br>Heavily-Dyed Paper</p>
+      <table id="t02" align="center">
+        <tr><td>Pizza Boxes</td><td>Wet Paper</td><td>Plastic Bottle Caps</td></tr>
+        <tr><td>Juice Boxes</td><td>Plastic Bags</td><td>Styrofoam</td></tr>
+        <tr><td>Wire Hangers</td><td>Ceramics</td><td>Heavily-Dyed Paper</td></tr>
+      </table>
 
    </div>
    </div>
