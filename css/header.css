@@ -4,18 +4,13 @@ body {
     flex-direction: column;
 
       }
-#getthelogo {
-  padding-right: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-top: 0%;
-}
+
       .logo_image {
         background-image: url("../picture/sky.jpg");
         height: 400px;
         width: 100%;
         /*position absolute*/
-        padding-top: 5%;
+        padding-top: 9.5%;
         text-align: center;
         /*left: 350px;*/
         z-index: 5;
