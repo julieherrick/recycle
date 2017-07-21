@@ -11,7 +11,7 @@ body {
         width: 100%;
         /*position absolute*/
         padding-top: 9.5%;
-        text-align: center;
+        align: center;
         /*left: 350px;*/
         z-index: 5;
       }
@@ -19,6 +19,9 @@ body {
       .header {
         display: flex;
 
+      }
+      .text {
+        margin-top: 40px;
       }
 
 
@@ -88,4 +91,9 @@ body {
       #list_elements {
         font-family: Impact, Charcoal, sans-serif;
         font-size: 30px;
+      }
+
+      .turtle {
+
+
       }
