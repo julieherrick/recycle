@@ -5,6 +5,13 @@ body {
 
       }
 
+#logohelp {
+  padding-top: 2%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+}
+
       .logo_image {
         background-image: url("../picture/sky.jpg");
         height: 400px;
@@ -25,7 +32,7 @@ body {
       #slogan {
         padding: 30px;
         font-family: Impact, sans-serif;
-        font-weight: bold;
+        font-weight: normal;
         color:#36454f;
         padding-bottom: 40px;
         margin-bottom: 0px;
@@ -44,7 +51,7 @@ body {
       /*navbar*/
       .rainbow {
           list-style-type: none;
-          margin-top: -9px;
+          /*margin-top: -9px;*/
           padding: 2px;
           padding-left: 25%;
           overflow: hidden;
