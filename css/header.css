@@ -4,7 +4,12 @@ body {
     flex-direction: column;
 
       }
-
+#getthelogo {
+  padding-right: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-top: 2%; 
+}
       .logo_image {
         background-image: url("../sky.jpg");
         height: 400px;
