@@ -6,14 +6,15 @@
   padding-bottom: 40px
 }
 
-.statistics {
-  padding: 30px;
-  font-family: Times;
-  color: #36454f;
-  padding-bottom: 30px;
-  margin-bottom: 0px;
-  font-size: 250%;
+#stat {
+  padding-top: 8%;
+  padding-right: 8%;
+  padding-bottom: 1%;
+  padding-left: 8%;
   text-align: center;
+  font-family: Helvetica;
+  color: #36454f;
+  font-weight: normal;
 }
 
 table#t01 {
