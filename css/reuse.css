@@ -1,0 +1,17 @@
+.pickle {
+  display: flex;
+  justify-content: center;
+
+}
+.grape {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.search    {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+      }
