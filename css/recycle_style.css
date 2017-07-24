@@ -76,10 +76,11 @@ h1 {
 }
 
 img {
-  margin-left: 10%;
+  margin-left: 15%;
   margin-right: 10%;
   border-width: 5px;
-  border-color: Charcoal;
+  border-color: #36454f;
+  align-self: center;
 }
 
 #blue {
