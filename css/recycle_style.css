@@ -2,18 +2,17 @@
 .main {
   /*background-image: url("../mountain_sunset.jpg");*/
   background-color: #aed5f2;
-  margin-top: 80px;
+  margin-top: 5%;
   padding-bottom: 40px
 }
 
-.statistics {
-  padding: 30px;
-  font-family: Times;
-  color: #36454f;
-  padding-bottom: 30px;
-  margin-bottom: 0px;
-  font-size: 250%;
+#stat {
+  padding-right: 4%;
+  padding-left: 4%;
   text-align: center;
+  font-family: Helvetica;
+  color: #36454f;
+  font-weight: normal;
 }
 
 table#t01 {
@@ -77,10 +76,11 @@ h1 {
 }
 
 img {
-  margin-left: 10%;
+  margin-left: 15%;
   margin-right: 10%;
   border-width: 5px;
-  border-color: Charcoal;
+  border-color: #36454f;
+  align-self: center;
 }
 
 #blue {
