@@ -21,3 +21,9 @@
     height: 44px;
     width: 75px;
 }
+
+#titles {
+  color: white;
+  font-weight: bold;
+  font-family:"Arial Black", Gadget, sans-serif;
+}

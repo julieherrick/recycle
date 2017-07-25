@@ -30,7 +30,9 @@ var pinterest_board = {"waterbottles":"https://www.pinterest.com/julieann4536/wa
 "bags": "https://www.pinterest.com/julieann4536/plastic-bag-crafts/",
 "bag": "https://www.pinterest.com/julieann4536/plastic-bag-crafts/",
 "tire": "https://www.pinterest.com/mpeavylonghorns/tire-crafts/", 
-"tires": "https://www.pinterest.com/mpeavylonghorns/tire-crafts/"};
+"tires": "https://www.pinterest.com/mpeavylonghorns/tire-crafts/",
+https://www.pinterest.com/Kviolin13/milk-jug-crafts/
+https://www.pinterest.com/Kviolin13/prescription-bottle-reusable-crafts/};
 
 
   // function doClick(buttonName,e)
