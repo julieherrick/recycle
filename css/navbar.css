@@ -7,7 +7,7 @@ body {
 
       .logo_image {
         background-image: url("../picture/sky.jpg");
-        height: 400px;
+        height: 43%;
         width: 100%;
         /*position absolute*/
         padding-top: 9.5%;
