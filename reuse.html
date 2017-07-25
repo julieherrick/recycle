@@ -69,7 +69,7 @@ body {
 
 
   </head>
-  <body>
+  <body id = "d">
 
     <!-- top part of home page with background image and logo -->
     <!-- <div class="home_image">
@@ -77,7 +77,7 @@ body {
     </div> -->
     <div class="logo_image">
       <center>
-      <img src="NEWLOGOyay.png" height="74%" width="74%">
+      <img id = "test" src="NEWLOGOyay.png" height="74%" width="74%">
       <h2 id="slogan"><i>Saving the planet one craft at a time.</i></h2>
   </div>
     <!-- navbar -->
@@ -95,13 +95,14 @@ body {
     <br>Just type the name of the item(s) you want to reuse and we'll give you easy crafts!</h1>
 
     <form>
-<div class="search"
-      <center><input type="text" id= "mySearch" name="search" value=" "></center>
-<!-- 
-<button onclick="myFunction()"></button> -->
+<div class="search">
+      <center><input type="text" id= "mySearch" name="search" value=" " onKeyPress="doClick('submit',event)"  ></center>
+
+
+<button id = "go" onclick="myFunction()" type = "button"><img src="greenarrow.png"  height="40px" width="37px"></button>
 <p id="demo"></p>
 <!-- <input type="button" id="submit" value="Search" onClick="doSomeThing();" /> -->
-<input type="text" name="search" onKeyPress="doClick('submit',event)" />
+<!-- <input type="text" name="search" onKeyPress="doClick('submit',event)" /> -->
 </div>
 
 </form>
@@ -147,10 +148,11 @@ Search: <input type="search" id="mySearch" value="Food">
 
 <button onclick="myFunction()">Try it</button>
 
-<p id="demo"></p>
+<a id="demo"></a>
 
 <!-- pinterest board -->
-<a data-pin-do="embedBoard" data-pin-board-width="600" data-pin-scale-height="300" data-pin-scale-width="110" href="https://www.pinterest.com/pinterest/official-news/"></a>
+
+<a id="board" data-pin-do="embedBoard" data-pin-board-width="600" data-pin-scale-height="300" data-pin-scale-width="110" href="https://www.pinterest.com/pinterest/official-news/"></a>
 <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 <!-- end pinterest board -->
 

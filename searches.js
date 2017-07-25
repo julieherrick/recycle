@@ -3,7 +3,7 @@ var pinterest_board = {"waterbottles":"https://www.pinterest.com/julieann4536/wa
 "water bottle":"https://www.pinterest.com/julieann4536/water-bottle-crafts/", 
 "bottles":"https://www.pinterest.com/julieann4536/water-bottle-crafts/", 
 "bottle": "https://www.pinterest.com/julieann4536/water-bottle-crafts/", 
-"cans":" https://www.pinterest.com/mpeavylonghorns/aluminum-can-crafts/", 
+"cans":"https://www.pinterest.com/mpeavylonghorns/aluminum-can-crafts/", 
 "can":"https://www.pinterest.com/mpeavylonghorns/aluminum-can-crafts/", 
 "cardboard":"https://www.pinterest.com/julieann4536/cardboard-crafts/", 
 "pencilstub":"https://www.pinterest.com/mpeavylonghorns/pencil-stub-crafts/",
@@ -33,34 +33,39 @@ var pinterest_board = {"waterbottles":"https://www.pinterest.com/julieann4536/wa
 "tires": "https://www.pinterest.com/mpeavylonghorns/tire-crafts/"};
 
 
-  function doClick(buttonName,e)
-    {
-        //the purpose of this function is to allow the enter key to 
-        //point to the correct button to click.
-        var key;
+  // function doClick(buttonName,e)
+  //   {
+  //       //the purpose of this function is to allow the enter key to 
+  //       //point to the correct button to click.
+  //       document.getElementById("d").innerHTML = "hhhhhhhhhhhhh"
+  //       var key;
 
-         if(window.event)
-              key = window.event.keyCode;     //IE
-         else
-              key = e.which;     //firefox
+  //        if(window.event)
+  //             key = window.event.keyCode;     //IE
+  //        else
+  //             key = e.which;     //firefox
 
-        if (key == 13)
-        {
-            //Get the button the user wants to have clicked
-            var btn = document.getElementById('submit');
-            if (btn != null)
-            { //If we find the button click it
-                btn.click();
-                event.keyCode = 0
-        document.write("it worked!")
-        document.getElementById("demo").innerHTML = x;
-    //         var x = document.getElementById("submit").value;
-    // document.getElementById("demo").innerHTML = x;
-            }
-        }
-   }
+  //       if (key == 13)
+  //       {
+  //           //Get the button the user wants to have clicked
+  //           var btn = document.getElementById('mySearch').value;
+
+  //           document.getElementById("d").innerHTML = btn;
+  //           if (btn != null)
+  //           { //If we find the button click it
+  //               // btn.click();
+  //               // event.keyCode = 0;
+  //           }
+  //       }
+  //  }
 function myFunction() {
-    var x = document.getElementById("mySearch").value;
-    document.getElementById("demo").innerHTML = x;
+     var x = document.getElementById("mySearch").value;
+     var x = x.toLowerCase();
+     document.write(pinterest_board[x].key);
+    document.getElementById("board").href ="https://www.pinterest.com/mpeavylonghorns/aluminum-can-crafts/";
+    
+      
+      return false;
+        
 
 }
