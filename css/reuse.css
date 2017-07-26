@@ -1,0 +1,44 @@
+.pickle {
+  display: flex;
+  justify-content: center;
+
+}
+.grape {
+  display: flex;
+  justify-content: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #3312ed;
+
+}
+
+
+.search    {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+      }
+
+#go {
+	margin-top: 30px;
+    height: 44px;
+    width: 75px;
+}
+
+#titles {
+  color: white;
+  font-weight: bold;
+  font-family:"Arial Black", Gadget, sans-serif;
+}
+
+#board {
+  padding-right: 95px;
+}
+
+#pins {
+  height: 300px;
+  width: 300px;
+}
+
+#name {
+  color: #c442bb;
+}
