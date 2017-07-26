@@ -94,3 +94,13 @@ img {
 #green {
   color: green;
 }
+
+#links {
+  color: #1132d8;
+}
+
+#earth {
+  color: #099942;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size: 27px;
+}

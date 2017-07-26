@@ -6,6 +6,8 @@
 .grape {
   display: flex;
   justify-content: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #3312ed;
 
 }
 
@@ -26,4 +28,17 @@
   color: white;
   font-weight: bold;
   font-family:"Arial Black", Gadget, sans-serif;
+}
+
+#board {
+  padding-right: 95px;
+}
+
+#pins {
+  height: 300px;
+  width: 300px;
+}
+
+#name {
+  color: #c442bb;
 }
